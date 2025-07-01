@@ -68,18 +68,17 @@ The assistant will respond accordingly with both text and voice.
 
 ## Project Structure :
 
-
 voice_assistant/
 │
 ├── app/
-│   ├── __init__.py           # Flask app initialization
-│   ├── assistant.py          # Command-response logic
-│   ├── voice_input.py        # Microphone voice capture
-│   └── tts_engine.py         # Text-to-speech engine
+│   ├── __init__.py          # Flask app initialization
+│   ├── assistant.py         # Command-response logic
+│   ├── voice_input.py       # Microphone voice capture
+│   └── tts_engine.py        # Text-to-speech engine
 │
-├── run.py                    # Main entry point script
-├── requirements.txt          # Required Python packages
-└── README.md                 # Project documentation
+├── run.py                   # Main entry point script
+├── requirements.txt         # Required Python packages with versions
+└── README.md    
 
 
 ## Dependencies
