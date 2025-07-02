@@ -27,13 +27,12 @@ Assistant: Hello! How are you?
 ---
 ## Installation
 - Clone the repository:
-
-
 git clone https://github.com/saugatpoudel100/voice_assistant.git
+
 cd voice-assistant
+
+
 - Create and activate a virtual environment (recommended):
-
-
 python -m venv venv
 # On Windows:
 venv\Scripts\activate
@@ -42,17 +41,14 @@ source venv/bin/activate
 
 
 - Install dependencies:
-
-
 pip install -r requirements.txt
 
 
 - Usage
 Run the voice assistant with:
-
-
 python run.py
-Speak one of the supported commands, for example:
+
+- Speak one of the supported commands, for example:
 
 "hello"
 
@@ -71,13 +67,20 @@ The assistant will respond accordingly with both text and voice.
 voice_assistant/
 │
 ├── app/
+
 │   ├── __init__.py          # Flask app initialization
+
 │   ├── assistant.py         # Command-response logic
+
 │   ├── voice_input.py       # Microphone voice capture
+
 │   └── tts_engine.py        # Text-to-speech engine
+
 │
 ├── run.py                   # Main entry point script
+
 ├── requirements.txt         # Required Python packages with versions
+
 └── README.md    
 
 
@@ -93,8 +96,6 @@ pyttsx3 2.90
 PyAudio 0.2.13
 
 ⚠️ If PyAudio installation fails on Windows, install it with pipwin:
-
-
 pip install pipwin
 pipwin install pyaudio
 
