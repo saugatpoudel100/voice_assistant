@@ -26,29 +26,37 @@ Assistant: Hello! How are you?
 
 ---
 ## Installation
+
 - Clone the repository:
+```bash
 git clone https://github.com/saugatpoudel100/voice_assistant.git
 
 cd voice-assistant
+```
 
 
 - Create and activate a virtual environment (recommended):
+```bash
 python -m venv venv
 # On Windows:
 venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
 
+```
 
 - Install dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 
 - Usage
 Run the voice assistant with:
+```bash
 python run.py
+```
 
-- Speak one of the supported commands, for example:
+## Speak one of the supported commands, for example:
 
 "hello"
 
@@ -62,9 +70,12 @@ python run.py
 
 The assistant will respond accordingly with both text and voice.
 
-## Project Structure :
+---
 
+## Project Structure :
+```bash
 voice_assistant/
+
 │
 ├── app/
 
@@ -83,7 +94,9 @@ voice_assistant/
 
 └── README.md    
 
+```
 
+---
 ## Dependencies
 Python 3.7+
 
@@ -95,11 +108,14 @@ pyttsx3 2.90
 
 PyAudio 0.2.13
 
-⚠️ If PyAudio installation fails on Windows, install it with pipwin:
+## ⚠️ If PyAudio installation fails on Windows, install it with pipwin:
+```bash
 pip install pipwin
 pipwin install pyaudio
 
+```
 
+---
 ## Extending the Assistant
 Add more commands and responses in app/assistant.py
 
@@ -111,9 +127,11 @@ Build a web or GUI interface using Flask or Tkinter
 
 Use NLP models for smarter responses
 
+---
 ## License
 MIT License saugat
 
+---
 ## Contact
 Feel free to reach out via GitHub issues or email: sauggupoudel10@gmail.com
 
